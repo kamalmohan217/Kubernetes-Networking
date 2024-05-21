@@ -17,3 +17,7 @@ From the alpine container we did curl to the localhost and we saw the home page 
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/8027c8f4-8e6a-4659-a132-471387f51822)
 #### Pod to Pod Communication
 **In kubernetes each pod has a unique IP address. When communication happens between the pods then it will happen over the IP address assign to the pod. The traffic flows from eth0 of Pod1 to eth0 of Pod2 through the virtual bridge network.**
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/9746442c-72f2-4bde-8d7e-7d1f47c1905a)
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/c63f0c95-2c50-4228-9717-29ee7a757741)
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/b20ef348-1226-4519-98a2-c649a0dbde6b)
+**Pod to Pod communication happens over the IP address assigned to the pod.**
