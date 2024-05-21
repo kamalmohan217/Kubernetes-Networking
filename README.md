@@ -24,3 +24,14 @@ From the alpine container we did curl to the localhost and we saw the home page 
 <br><br/>
 #### Pod to Service Communication
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/92f46427-8468-4142-8fa7-1ca2ca35e09f)
+Kubernetes Service serves as loadbalancer and routes the traffic to the Pod in **round robin algorithm**.
+<br><br/>
+I have created three pods and a service which routes the traffic to the pods in round robin algorithm. 
+<br><br/>
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/ca4b2d19-44c6-4216-bdcd-15cd90bb15ab)
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/30bba8b0-33cd-4880-b29c-436f070a596e)
+<br><br/>
+The traffic which comes to the Kubernetes Service will be routed to the enpoints (the three IP addresses assigned to the pod) in round robin algorithm.
+<br><br/>
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/4b692d3e-31d5-4504-841b-fa2ceea1c0b4)
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/300a772a-912c-4ba9-8526-7cb4721cf0c3)
