@@ -12,3 +12,6 @@ Now check the IP address assigned to Pod and each of the containers(main contain
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/548a1d92-a42e-4104-8a50-eb8a40567141)
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/f4eb26f4-7bae-46e7-8e41-b889dd39d8e6)
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/00311ec8-e3fa-488a-9692-cb782d2c82fa)
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/136bd1af-8ec8-4350-b3f0-8ec0aa1fa985)
+From the alpine container we did curl to the localhost we saw the home page for nginx.
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/8027c8f4-8e6a-4659-a132-471387f51822)
