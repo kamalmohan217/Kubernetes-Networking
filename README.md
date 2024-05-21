@@ -24,6 +24,7 @@ From the alpine container we did curl to the localhost and we saw the home page 
 <br><br/>
 #### Pod to Service Communication
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/92f46427-8468-4142-8fa7-1ca2ca35e09f)
+<br><br/>
 Kubernetes Service serves as loadbalancer and routes the traffic to the Pod in **round robin algorithm**.
 <br><br/>
 I have created three pods and a service which routes the traffic to the pods in round robin algorithm. 
