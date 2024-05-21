@@ -21,3 +21,6 @@ From the alpine container we did curl to the localhost and we saw the home page 
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/c63f0c95-2c50-4228-9717-29ee7a757741)
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/b20ef348-1226-4519-98a2-c649a0dbde6b)
 **Pod to Pod communication happens over the IP address assigned to the pod.**
+<br><br/>
+#### Pod to Service Communication
+![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/92f46427-8468-4142-8fa7-1ca2ca35e09f)
