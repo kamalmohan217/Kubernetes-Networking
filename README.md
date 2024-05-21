@@ -31,7 +31,7 @@ I have created three pods and a service which routes the traffic to the pods in 
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/ca4b2d19-44c6-4216-bdcd-15cd90bb15ab)
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/30bba8b0-33cd-4880-b29c-436f070a596e)
 <br><br/>
-The traffic which comes to the Kubernetes Service will be routed to the enpoints (the three IP addresses assigned to the pod) in round robin algorithm.
+The traffic which comes to the Kubernetes Service will be routed to the enpoints (the three IP addresses assigned to the pod and the port) in round robin algorithm.
 <br><br/>
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/acf5bf84-b046-4d37-b867-7ec3b3e00faa)
 ![image](https://github.com/kamalmohan217/Kubernetes-Networking/assets/128888356/64b1f029-7b4b-4800-aaab-b4e0fd075f6f)
